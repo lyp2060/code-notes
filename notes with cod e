@@ -1,0 +1,10 @@
+# bash
+
+tr -s 'a' 'b'; # replace 'a' with 'b' in unix
+
+# python
+os.walk('dir):
+---> return dirs, dirsnames and filenames in tuples
+---> dirs: is the current dir, dirsnames are the sub-dirs under dirs, filenames are the file names under dirs
+ you need to use os.path.join(dirs,filenames) to get the full path names
+ 
